@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor-fundo:#002F52;
+    --cor-cabecalho : #ebecee;  
+}
+
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--cor-cabecalho) ;
+    box-shadow: 3px 3px 3px black;
+    align-items: center;
+}
+
+.container_imagem{
+    padding: 1rem;
+}
+body{
+    background-color: var(--cor-fundo);
+}
+
+.lista__menu_link {
+    display: none;
+}
+
+.container_botao:checked ~ .lista_submenu .lista__menu_link {
+    display: block;
+}
