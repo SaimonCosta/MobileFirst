@@ -31,3 +31,8 @@ body{
 .container_botao:checked ~ .lista_submenu .lista__menu_link {
     display: block;
 }
+
+.submenulista{
+    box-shadow: 3px 3px 3px black;
+    background-color: var(--cor-cabecalho);
+}
